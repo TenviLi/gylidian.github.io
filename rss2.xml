@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>啊哈呵嗨</title>
+    <link>http://nuist.today/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>前端,前端技术,javascript,css,html,生活,文章,bilibili,游戏,说说,分享,学习,情感,知识,博客,blog,技术,github,gylidian,啊哈呵嗨,锂碘,个人博客</description>
+    <pubDate>Wed, 13 Feb 2019 18:28:39 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://nuist.today/hello-world/</link>
+      <guid>http://nuist.today/hello-world/</guid>
+      <pubDate>Wed, 13 Feb 2019 12:55:57 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          
+        
+      
+      </description>
+      
+      <comments>http://nuist.today/hello-world/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>

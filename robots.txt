@@ -1,0 +1,18 @@
+#hexo robots.txt
+User-agent: *
+
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://nuist.today/search.xml
+Sitemap: https://nuist.today/sitemap.xml
+Sitemap: https://nuist.today/baidusitemap.xml
