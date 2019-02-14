@@ -8,8 +8,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>前端,前端技术,javascript,css,html,生活,文章,bilibili,游戏,说说,分享,学习,情感,知识,博客,blog,技术,github,gylidian,啊哈呵嗨,锂碘,个人博客</description>
-    <pubDate>Thu, 14 Feb 2019 05:37:56 GMT</pubDate>
+    <pubDate>Thu, 14 Feb 2019 13:29:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>2018年我的代码行数年度总结</title>
+      <link>http://www.nuist.today/2018%E5%B9%B4%E6%88%91%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <guid>http://www.nuist.today/2018%E5%B9%B4%E6%88%91%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <pubDate>Thu, 14 Feb 2019 13:28:24 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;2018年-年度总结-代码行数&quot;&gt;&lt;a href=&quot;#2018年-年度总结-代码行数&quot; class=&quot;headerlink&quot; title=&quot;2018年 年度总结 代码行数&quot;&gt;&lt;/a&gt;2018年 年度总结
+          
+        
+      
+      </description>
+      
+      <comments>http://www.nuist.today/2018%E5%B9%B4%E6%88%91%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>从零开始的Hexo博客搭建教程（五）：文章发布</title>
