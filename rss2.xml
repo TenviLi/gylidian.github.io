@@ -4,31 +4,132 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>啊哈呵嗨</title>
-    <link>http://nuist.today/</link>
+    <link>http://www.nuist.today/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>前端,前端技术,javascript,css,html,生活,文章,bilibili,游戏,说说,分享,学习,情感,知识,博客,blog,技术,github,gylidian,啊哈呵嗨,锂碘,个人博客</description>
-    <pubDate>Wed, 13 Feb 2019 18:28:39 GMT</pubDate>
+    <pubDate>Thu, 14 Feb 2019 05:37:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Hello World</title>
-      <link>http://nuist.today/hello-world/</link>
-      <guid>http://nuist.today/hello-world/</guid>
-      <pubDate>Wed, 13 Feb 2019 12:55:57 GMT</pubDate>
+      <title>从零开始的Hexo博客搭建教程（五）：文章发布</title>
+      <link>http://www.nuist.today/how-to-build-hexo-blog-article/</link>
+      <guid>http://www.nuist.today/how-to-build-hexo-blog-article/</guid>
+      <pubDate>Thu, 14 Feb 2019 04:24:47 GMT</pubDate>
       <description>
       
         
         
           
           
-            &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+            &lt;p&gt;##&lt;/p&gt;
+
           
         
       
       </description>
       
-      <comments>http://nuist.today/hello-world/#disqus_thread</comments>
+      <comments>http://www.nuist.today/how-to-build-hexo-blog-article/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>如何优雅地为博客添加打赏二维码功能</title>
+      <link>http://www.nuist.today/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%9F%E8%83%BD/</link>
+      <guid>http://www.nuist.today/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%9F%E8%83%BD/</guid>
+      <pubDate>Thu, 14 Feb 2019 04:20:26 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;1.打开“微信”。&lt;/p&gt;
+&lt;p&gt;2.打开“我”，然后点击“钱包”。&lt;/p&gt;
+&lt;p&gt;3.点击“收付码”。&lt;/p&gt;
+&lt;p&gt;4.点击“赞赏码”。&lt;/p&gt;
+&lt;p&gt;5.点击“开通赞赏码”。&lt;/p&gt;
+&lt;p&gt;6.添加“赞赏引导语”，还可以根据需要修改“赞赏金额”，然后点击“生成赞赏码”
+          
+        
+      
+      </description>
+      
+      <comments>http://www.nuist.today/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%9F%E8%83%BD/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（四）：图床</title>
+      <link>http://www.nuist.today/how-to-build-hexo-blog-image-hosting/</link>
+      <guid>http://www.nuist.today/how-to-build-hexo-blog-image-hosting/</guid>
+      <pubDate>Thu, 14 Feb 2019 04:16:07 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;图床&quot;&gt;&lt;a href=&quot;#图床&quot; class=&quot;headerlink&quot; title=&quot;图床&quot;&gt;&lt;/a&gt;图床&lt;/h2&gt;&lt;h3 id=&quot;选用合适的个人图床&quot;&gt;&lt;a href=&quot;#选用合适的个人图床&quot; class=&quot;headerlink&quot;
+          
+        
+      
+      </description>
+      
+      <comments>http://www.nuist.today/how-to-build-hexo-blog-image-hosting/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（三）：SEO优化</title>
+      <link>http://www.nuist.today/how-to-build-hexo-blog-seo/</link>
+      <guid>http://www.nuist.today/how-to-build-hexo-blog-seo/</guid>
+      <pubDate>Thu, 14 Feb 2019 04:15:27 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;🍰本篇着重介绍了Hexo博客做SEO的一些小技巧，在内容优质程度不变的情况下如何针对搜索引擎展示或主动提交更多内容。&lt;/p&gt;
+      
+      </description>
+      
+      <comments>http://www.nuist.today/how-to-build-hexo-blog-seo/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（二）：主题&amp;插件</title>
+      <link>http://www.nuist.today/how-to-build-hexo-blog-theme&amp;plugin/</link>
+      <guid>http://www.nuist.today/how-to-build-hexo-blog-theme&amp;plugin/</guid>
+      <pubDate>Thu, 14 Feb 2019 04:11:55 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;
+&lt;p&gt;🧁为你的Hexo博客添加美观的主题和易用的插件，包括主题配置、分享、打赏、评论插件等。&lt;/p&gt;
+&lt;/blockquote&gt;
+      
+      </description>
+      
+      <comments>http://www.nuist.today/how-to-build-hexo-blog-theme&amp;plugin/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（一）：开始</title>
+      <link>http://www.nuist.today/how-to-build-hexo-blog-start/</link>
+      <guid>http://www.nuist.today/how-to-build-hexo-blog-start/</guid>
+      <pubDate>Thu, 14 Feb 2019 03:43:09 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;
+&lt;p&gt;🎂开始你的Hexo之旅&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Why-Hexo&quot;&gt;&lt;a href=&quot;#Why-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Why Hexo?&quot;&gt;&lt;/a&gt;Why Hexo?&lt;/h2&gt;&lt;p&gt;基础搭配：&lt;code&gt;Git + Github Pages + Hexo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;优点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;免费 - GitHub&lt;/li&gt;
+&lt;li&gt;快速 - Node运行环境、前端个人站点首选&lt;/li&gt;
+&lt;li&gt;简洁 - MarkDown&lt;/li&gt;
+&lt;li&gt;轻量 -  全部静态文件&lt;/li&gt;
+&lt;li&gt;支持导入WordPress等博客&lt;/li&gt;
+&lt;/ul&gt;
+      
+      </description>
+      
+      <comments>http://www.nuist.today/how-to-build-hexo-blog-start/#disqus_thread</comments>
     </item>
     
   </channel>

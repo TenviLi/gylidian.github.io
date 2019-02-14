@@ -1,1 +1,1 @@
-http://nuist.today/hello-world/
+http://www.nuist.today/how-to-build-hexo-blog-article/
