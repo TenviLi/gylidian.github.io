@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.nuist.today/how-to-build-hexo-blog-start/</loc>
+    
+    <lastmod>2019-02-14T13:47:05.080Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.nuist.today/2018%E5%B9%B4%E6%88%91%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
     
-    <lastmod>2019-02-14T13:29:27.760Z</lastmod>
+    <lastmod>2019-02-14T13:30:54.671Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://www.nuist.today/how-to-build-hexo-blog-article/</loc>
     
     <lastmod>2019-02-14T13:28:02.452Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.nuist.today/how-to-build-hexo-blog-start/</loc>
-    
-    <lastmod>2019-02-14T13:27:57.052Z</lastmod>
     
   </url>
   
