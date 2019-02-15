@@ -3,19 +3,35 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>啊哈呵嗨</title>
+    <title>啊哈呵嗨，锂碘同学的个人博客</title>
     <link>http://www.nuist.today/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>前端,前端技术,javascript,css,html,生活,文章,bilibili,游戏,说说,分享,学习,情感,知识,博客,blog,技术,github,gylidian,啊哈呵嗨,锂碘,个人博客</description>
-    <pubDate>Fri, 15 Feb 2019 10:29:46 GMT</pubDate>
+    <pubDate>Fri, 15 Feb 2019 13:09:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（七）：遇到的坑</title>
+      <link>http://www.nuist.today/A-fgp4/</link>
+      <guid>http://www.nuist.today/A-fgp4/</guid>
+      <pubDate>Fri, 15 Feb 2019 11:14:03 GMT</pubDate>
+      <description>
+      
+        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;✨《从零开始的Hexo博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！&lt;/p&gt;
+&lt;p&gt;本文用于 收集本人在使用Hexo的过程中出现的 &lt;strong&gt;各种坑及解决方法&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω＜=)ρ⌒☆&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+      
+      </description>
+      
+      <comments>http://www.nuist.today/A-fgp4/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>从零开始的Hexo博客搭建教程（六）：插件</title>
       <link>http://www.nuist.today/hAbX6u/</link>
       <guid>http://www.nuist.today/hAbX6u/</guid>
-      <pubDate>Fri, 15 Feb 2019 10:04:57 GMT</pubDate>
+      <pubDate>Fri, 15 Feb 2019 11:07:01 GMT</pubDate>
       <description>
       
         &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
@@ -225,13 +241,12 @@
       <pubDate>Thu, 14 Feb 2019 04:16:07 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;图床&quot;&gt;&lt;a href=&quot;#图床&quot; class=&quot;headerlink&quot; title=&quot;图床&quot;&gt;&lt;/a&gt;图床&lt;/h2&gt;&lt;h3 id=&quot;选用合适的个人图床&quot;&gt;&lt;a href=&quot;#选用合适的个人图床&quot;
-          
-        
+        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;🖼写文章从选用一个好图床开始！&lt;/p&gt;
+&lt;p&gt;一步一步按照教程挑选适合自己的图床服务吧！结合一些图床上传工具使得写文章事半功倍！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;（虽然这一辑教程和Hexo没太大关系啦）&lt;/p&gt;
+&lt;p&gt;🎀多图预警！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
       
       </description>
       
@@ -245,7 +260,12 @@
       <pubDate>Thu, 14 Feb 2019 04:15:27 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;🍰 本篇着重介绍了 Hexo 博客做 SEO 的一些小技巧，在内容优质程度不变的情况下如何针对搜索引擎展示或主动提交更多内容。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;🍰 本篇着重介绍了 Hexo 博客做 SEO 的一些小技巧，在内容优质程度不变的情况下如何针对搜索引擎展示或主动提交更多内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么要做SEO？&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SEO”Search Engine Optimization”汉译为搜索引擎优化 ,搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式，搜索引擎优化是提高网站在搜索引擎结果中排名的战略。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;SEO非常耗时间，但“结果”是增加流量和更高的回报，而这需要您长久的悉心耕耘。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
       
       </description>
       
@@ -260,7 +280,7 @@
       <description>
       
         &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
-&lt;p&gt;🧁 为你的 Hexo 博客添加美观的主题和易用的插件，包括主题配置、分享、打赏、评论插件等。&lt;/p&gt;
+&lt;p&gt;🧁 为你的 Hexo 博客添加美观的主题，包括主题配置、分享、打赏、评论插件等。&lt;/p&gt;
 &lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
       
       </description>
