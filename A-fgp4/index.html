@@ -5,21 +5,21 @@
 
 
 
-    <meta name="description" content="✨《从零开始的Hexo博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用Hexo的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω＜=)ρ⌒☆">
+    <meta name="description" content="✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用 Hexo 的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆">
 <meta name="keywords" content="教程,Hexo,博客,坑">
 <meta property="og:type" content="article">
 <meta property="og:title" content="从零开始的Hexo博客搭建教程（七）：遇到的坑">
 <meta property="og:url" content="http://www.nuist.today/A-fgp4/index.html">
 <meta property="og:site_name" content="啊哈呵嗨，锂碘同学的个人博客">
-<meta property="og:description" content="✨《从零开始的Hexo博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用Hexo的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω＜=)ρ⌒☆">
+<meta property="og:description" content="✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用 Hexo 的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215192505.png">
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215192749.png">
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215193222.png">
-<meta property="og:updated_time" content="2019-02-15T13:09:11.685Z">
+<meta property="og:updated_time" content="2019-02-15T13:13:25.273Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="从零开始的Hexo博客搭建教程（七）：遇到的坑">
-<meta name="twitter:description" content="✨《从零开始的Hexo博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用Hexo的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω＜=)ρ⌒☆">
+<meta name="twitter:description" content="✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用 Hexo 的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆">
 <meta name="twitter:image" content="http://gylidian-blog.test.upcdn.net/20190215192505.png">
 
 
@@ -159,22 +159,22 @@
             
         </h1>
         <div class="content">
-            <meta name="generator" content="Hexo 3.8.0"><p>✨《从零开始的Hexo博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！</p>
-<p>本文用于 收集本人在使用Hexo的过程中出现的 <strong>各种坑及解决方法</strong>。</p>
-<p>如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω＜=)ρ⌒☆</p>
+            <meta name="generator" content="Hexo 3.8.0"><p>✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！</p>
+<p>本文用于 收集本人在使用 Hexo 的过程中出现的 <strong>各种坑及解决方法</strong>。</p>
+<p>如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆</p>
 <a id="more"></a>
 <h2 id="Template-render-error"><a href="#Template-render-error" class="headerlink" title="Template render error"></a>Template render error</h2><p><strong>问题描述</strong></p>
 <p>在使用 <code>hexo g</code> 生成文章的时候，控制台报错如下:</p>
 <figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html</span><br><span class="line">Template render error: (unknown path) [Line 12, Column 17]</span><br><span class="line">expected variable end</span><br></pre></td></tr></tbody></table></figure>
 <p><strong>出现原因</strong></p>
-<p>当文章中有 <code>}}</code> 或 EJS模板语法，且未被代码块包含时，解析会出现问题。</p>
+<p>当文章中有 <code>}}</code> 或 EJS 模板语法，且未被代码块包含时，解析会出现问题。</p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215192505.png" alt="包含EJS模板语法的markdown文件"></p>
 <p><strong>解决方法</strong></p>
 <figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">{% raw %}</span><br><span class="line">放到代码块中就OK啦</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="Sitemap-xml-出现错误"><a href="#Sitemap-xml-出现错误" class="headerlink" title="Sitemap.xml 出现错误"></a>Sitemap.xml 出现错误</h3><p><strong>问题描述</strong></p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215192749.png" alt=""></p>
 <p><strong>解决方法</strong></p>
-<p>请勿使文章名或md文件名包含 <code>&</code> 符号 导致 hexo文章链接中也包含该符号。</p>
+<p>请勿使文章名或 md 文件名包含 <code>&</code> 符号 导致 hexo 文章链接中也包含该符号。</p>
 <p>去除后再重新生成即可恢复正常。</p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215193222.png" alt=""></p>
 
