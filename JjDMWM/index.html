@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="zh"><head>
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
 <title>从零开始的Hexo博客搭建教程（四）：图床 - 啊哈呵嗨，锂碘同学的个人博客</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -46,44 +48,57 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
     
-</head><body class="is-3-column">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="/css/back-to-top.css">
+    
+    
+
+<link rel="stylesheet" href="/css/back-to-top.css">
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="/css/progressbar.css">
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/progressbar.css">
 <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+    
+
+    
+    
     
 
 
 <link rel="stylesheet" href="/css/style.css">
-
-
+</head>
+<body class="is-3-column">
     <nav class="navbar navbar-main">
     <div class="container">
         <div class="navbar-brand is-flex-center">
@@ -173,7 +188,7 @@
             
         </h1>
         <div class="content">
-            <meta name="generator" content="Hexo 3.8.0"><blockquote>
+            <blockquote>
 <p>🖼写文章从选用一个好图床开始！</p>
 <p>一步一步按照教程挑选适合自己的图床服务吧！结合一些图床上传工具使得写文章事半功倍！</p>
 </blockquote>
@@ -190,7 +205,7 @@
 </li>
 <li><p>只有 <strong>30 天的测试域名</strong>，七牛融合 CDN 测试域名（clouddn.com/qiniucdn.com/qiniudn.com/qnssl.com/qbox.me 结尾），每个域名每日限总流量 10GB，每个测试域名自创建起 30 个自然日后系统会自动销毁，仅供测试使用。</p>
 <p>到期后就只能自己绑定域名了，如果你的博客托管于 Github/Coding等服务上，并且手中没有闲置的已备案域名，也就意味着你要跳过七牛这一选项了。</p>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">七牛对象存储 <= 需要域名的备案号+公安备案号="" <="需要购买主机<br><!--=--></span></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">七牛对象存储 &lt;= 需要域名的备案号+公安备案号 &lt;= 需要购买主机</span><br></pre></td></tr></table></figure>
 <p>整个操作周期至少10天左右。</p>
 </li>
 <li><p>图床迁移很麻烦，无法批量下载。</p>
@@ -210,7 +225,7 @@
 <p><img src="https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/picgo-2.0.gif" alt=""></p>
 <p><img src="https://user-images.githubusercontent.com/12621342/34242310-b5056510-e655-11e7-8568-60ffd4f71910.gif" alt=""></p>
 <p>PicGo在上传图片之后自动会将图片链接复制到你的剪贴板里，可选5种复制的链接格式。</p>
-<p>支持macOS、windows 64位（>= v1.3.1），linux（>= v1.6.0）。</p>
+<p>支持macOS、windows 64位（&gt;= v1.3.1），linux（&gt;= v1.6.0）。</p>
 <p>Mac 上一款很不错的小工具应用 iPic 免费版本并不支持七牛图床，而PicGo v2.0.3 目前支持 <strong>SM.MS、腾讯云COS、微博图床、GitHub、七牛、Imgur、阿里云COS、又拍云</strong>等8种常用图床，其他图床服务可通过手写插件添加。</p>
 <p><em>需要注意的是，想要使用PicGo 2.0的插件系统，需要先行安装Node.js环境，因为PicGo的插件安装依赖npm。</em></p>
 <p>支持快捷键<code>command+shift+p</code>（macOS）或者<code>control+shift+p</code>（windows\linux）用以支持快捷上传剪贴板里的图片（第一张）。 PicGo支持自定义快捷键，使用方法见<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html" rel="external nofollow noopener noreferrer" target="_blank">配置手册</a>。</p>
@@ -267,7 +282,8 @@
         <h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3>
         <div class="buttons is-centered">
             
-                <meta name="generator" content="Hexo 3.8.0"><a class="button is-info donate">
+                
+<a class="button is-info donate">
     <span class="icon is-small">
         <i class="fab fa-alipay"></i>
     </span>
@@ -276,7 +292,8 @@
 </a>
 
                 
-                <meta name="generator" content="Hexo 3.8.0"><a class="button is-success donate">
+                
+<a class="button is-success donate">
     <span class="icon is-small">
         <i class="fab fa-weixin"></i>
     </span>
@@ -317,7 +334,8 @@
 <div class="card">
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal">评论</h3>
-        <meta name="generator" content="Hexo 3.8.0"><div id="comment-container"></div>
+        
+<div id="comment-container"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.min.js"></script>
 <script>
@@ -335,9 +353,15 @@
     </div>
 </div>
 </div>
-                <div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
     
-        <div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
             最新文章
@@ -347,7 +371,7 @@
             
             <a href="/A-fgp4/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg!128x128" alt="从零开始的Hexo博客搭建教程（七）：遇到的坑">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-problem.png!small" alt="从零开始的Hexo博客搭建教程（七）：遇到的坑">
                 </p>
             </a>
             
@@ -366,7 +390,7 @@
             
             <a href="/hAbX6u/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-plugin.jpg!128x128" alt="从零开始的Hexo博客搭建教程（六）：插件">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-plugin.jpg!small" alt="从零开始的Hexo博客搭建教程（六）：插件">
                 </p>
             </a>
             
@@ -385,7 +409,7 @@
             
             <a href="/yMZpWN/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/总结CSS水平垂直居中的各种骚操作.jpg!128x128" alt="总结CSS水平垂直居中的各种骚操作">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/总结CSS水平垂直居中的各种骚操作.jpg!small" alt="总结CSS水平垂直居中的各种骚操作">
                 </p>
             </a>
             
@@ -404,7 +428,7 @@
             
             <a href="/TjdXkc/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/2018年我的代码行数年度总结.jpg!128x128" alt="2018年我的代码行数年度总结">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/2018年我的代码行数年度总结.jpg!small" alt="2018年我的代码行数年度总结">
                 </p>
             </a>
             
@@ -423,7 +447,7 @@
             
             <a href="/1eC0kV/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-article.png!128x128" alt="从零开始的Hexo博客搭建教程（五）：文章发布">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-article.png!small" alt="从零开始的Hexo博客搭建教程（五）：文章发布">
                 </p>
             </a>
             
@@ -442,7 +466,8 @@
 </div>
 
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -519,7 +544,7 @@
     </div>
 </div>
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        <div class="card widget">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -605,7 +630,8 @@
     
         <div class="column-right-shadow is-hidden-widescreen ">
         
-            <div class="card widget">
+            
+<div class="card widget">
     <div class="card-content">
         <nav class="level">
             <div class="level-item has-text-centered">
@@ -707,7 +733,9 @@
     </div>
 </div>
         
-            <div class="card widget">
+            
+
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
@@ -755,7 +783,8 @@
 
 
         
-            <div class="card widget" id="toc">
+            
+<div class="card widget" id="toc">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -819,9 +848,15 @@
     
 </div>
 
-                <div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <nav class="level">
             <div class="level-item has-text-centered">
@@ -923,7 +958,9 @@
     </div>
 </div>
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
@@ -971,7 +1008,8 @@
 
 
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget" id="toc">
+        
+<div class="card widget" id="toc">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -1047,7 +1085,7 @@
                 
                 </a>
                 <p class="is-size-7">
-                © 2019 gylidian 
+                &copy; 2019 gylidian&nbsp;
                 Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
                 
                 </p>
@@ -1093,21 +1131,27 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="/js/animation.js"></script>
+    
+    
+    <script src="/js/animation.js"></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
     <script src="/js/gallery.js" defer></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><div id="outdated">
+    
+
+<div id="outdated">
     <h6>Your browser is out-of-date!</h6>
     <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" rel="external nofollow noopener noreferrer" target="_blank">Update
             my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">×</a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
 <script>
@@ -1122,7 +1166,8 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     MathJax.Hub.Config({
@@ -1146,30 +1191,37 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
     
-    <meta name="generator" content="Hexo 3.8.0"><a id="back-to-top" title="回到顶端" href="javascript:;">
+    
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
     <script src="/js/clipboard.js" defer></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0">
+    
     
 
 
+<script src="/js/firework.js" defer></script>
 <script src="/js/main.js" defer></script>
 
     
@@ -1203,5 +1255,5 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
-
-</body></html>
+</body>
+</html>

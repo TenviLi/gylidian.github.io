@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="zh"><head>
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
 <title>从零开始的Hexo博客搭建教程（七）：遇到的坑 - 啊哈呵嗨，锂碘同学的个人博客</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,7 +18,7 @@
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215192505.png">
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215192749.png">
 <meta property="og:image" content="http://gylidian-blog.test.upcdn.net/20190215193222.png">
-<meta property="og:updated_time" content="2019-02-15T13:13:25.273Z">
+<meta property="og:updated_time" content="2019-02-15T13:21:18.468Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="从零开始的Hexo博客搭建教程（七）：遇到的坑">
 <meta name="twitter:description" content="✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！ 本文用于 收集本人在使用 Hexo 的过程中出现的 各种坑及解决方法。 如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆">
@@ -38,44 +40,57 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
     
-</head><body class="is-3-column">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="/css/back-to-top.css">
+    
+    
+
+<link rel="stylesheet" href="/css/back-to-top.css">
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><link rel="stylesheet" href="/css/progressbar.css">
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/progressbar.css">
 <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+    
+
+    
+    
     
 
 
 <link rel="stylesheet" href="/css/style.css">
-
-
+</head>
+<body class="is-3-column">
     <nav class="navbar navbar-main">
     <div class="container">
         <div class="navbar-brand is-flex-center">
@@ -132,6 +147,12 @@
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
     
+    <div class="card-image">
+        <span class="image is-7by1">
+            <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-problem.png" alt="从零开始的Hexo博客搭建教程（七）：遇到的坑">
+        </span>
+    </div>
+    
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
@@ -159,22 +180,22 @@
             
         </h1>
         <div class="content">
-            <meta name="generator" content="Hexo 3.8.0"><p>✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！</p>
+            <p>✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！</p>
 <p>本文用于 收集本人在使用 Hexo 的过程中出现的 <strong>各种坑及解决方法</strong>。</p>
 <p>如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆</p>
 <a id="more"></a>
 <h2 id="Template-render-error"><a href="#Template-render-error" class="headerlink" title="Template render error"></a>Template render error</h2><p><strong>问题描述</strong></p>
 <p>在使用 <code>hexo g</code> 生成文章的时候，控制台报错如下:</p>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html</span><br><span class="line">Template render error: (unknown path) [Line 12, Column 17]</span><br><span class="line">expected variable end</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something&apos;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html</span><br><span class="line">Template render error: (unknown path) [Line 12, Column 17]</span><br><span class="line">expected variable end</span><br></pre></td></tr></table></figure>
 <p><strong>出现原因</strong></p>
 <p>当文章中有 <code>}}</code> 或 EJS 模板语法，且未被代码块包含时，解析会出现问题。</p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215192505.png" alt="包含EJS模板语法的markdown文件"></p>
 <p><strong>解决方法</strong></p>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">{% raw %}</span><br><span class="line">放到代码块中就OK啦</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">放到代码块中就OK啦</span><br></pre></td></tr></table></figure>
 <h3 id="Sitemap-xml-出现错误"><a href="#Sitemap-xml-出现错误" class="headerlink" title="Sitemap.xml 出现错误"></a>Sitemap.xml 出现错误</h3><p><strong>问题描述</strong></p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215192749.png" alt=""></p>
 <p><strong>解决方法</strong></p>
-<p>请勿使文章名或 md 文件名包含 <code>&</code> 符号 导致 hexo 文章链接中也包含该符号。</p>
+<p>请勿使文章名或 md 文件名包含 <code>&amp;</code> 符号 导致 hexo 文章链接中也包含该符号。</p>
 <p>去除后再重新生成即可恢复正常。</p>
 <p><img src="http://gylidian-blog.test.upcdn.net/20190215193222.png" alt=""></p>
 
@@ -201,7 +222,8 @@
         <h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3>
         <div class="buttons is-centered">
             
-                <meta name="generator" content="Hexo 3.8.0"><a class="button is-info donate">
+                
+<a class="button is-info donate">
     <span class="icon is-small">
         <i class="fab fa-alipay"></i>
     </span>
@@ -210,7 +232,8 @@
 </a>
 
                 
-                <meta name="generator" content="Hexo 3.8.0"><a class="button is-success donate">
+                
+<a class="button is-success donate">
     <span class="icon is-small">
         <i class="fab fa-weixin"></i>
     </span>
@@ -244,7 +267,8 @@
 <div class="card">
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal">评论</h3>
-        <meta name="generator" content="Hexo 3.8.0"><div id="comment-container"></div>
+        
+<div id="comment-container"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.min.js"></script>
 <script>
@@ -262,9 +286,15 @@
     </div>
 </div>
 </div>
-                <div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
     
-        <div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
             最新文章
@@ -274,7 +304,7 @@
             
             <a href="/A-fgp4/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg!128x128" alt="从零开始的Hexo博客搭建教程（七）：遇到的坑">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-problem.png!small" alt="从零开始的Hexo博客搭建教程（七）：遇到的坑">
                 </p>
             </a>
             
@@ -293,7 +323,7 @@
             
             <a href="/hAbX6u/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-plugin.jpg!128x128" alt="从零开始的Hexo博客搭建教程（六）：插件">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-plugin.jpg!small" alt="从零开始的Hexo博客搭建教程（六）：插件">
                 </p>
             </a>
             
@@ -312,7 +342,7 @@
             
             <a href="/yMZpWN/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/总结CSS水平垂直居中的各种骚操作.jpg!128x128" alt="总结CSS水平垂直居中的各种骚操作">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/总结CSS水平垂直居中的各种骚操作.jpg!small" alt="总结CSS水平垂直居中的各种骚操作">
                 </p>
             </a>
             
@@ -331,7 +361,7 @@
             
             <a href="/TjdXkc/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/2018年我的代码行数年度总结.jpg!128x128" alt="2018年我的代码行数年度总结">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/2018年我的代码行数年度总结.jpg!small" alt="2018年我的代码行数年度总结">
                 </p>
             </a>
             
@@ -350,7 +380,7 @@
             
             <a href="/1eC0kV/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-article.png!128x128" alt="从零开始的Hexo博客搭建教程（五）：文章发布">
+                    <img class="thumbnail" src="http://gylidian-blog.test.upcdn.net/how-to-build-hexo-blog-article.png!small" alt="从零开始的Hexo博客搭建教程（五）：文章发布">
                 </p>
             </a>
             
@@ -369,7 +399,8 @@
 </div>
 
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -446,7 +477,7 @@
     </div>
 </div>
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        <div class="card widget">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -532,7 +563,8 @@
     
         <div class="column-right-shadow is-hidden-widescreen ">
         
-            <div class="card widget">
+            
+<div class="card widget">
     <div class="card-content">
         <nav class="level">
             <div class="level-item has-text-centered">
@@ -634,7 +666,9 @@
     </div>
 </div>
         
-            <div class="card widget">
+            
+
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
@@ -682,7 +716,8 @@
 
 
         
-            <div class="card widget" id="toc">
+            
+<div class="card widget" id="toc">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -706,9 +741,15 @@
     
 </div>
 
-                <div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+<div class="card widget">
     <div class="card-content">
         <nav class="level">
             <div class="level-item has-text-centered">
@@ -810,7 +851,9 @@
     </div>
 </div>
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget">
+        
+
+<div class="card widget">
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
@@ -858,7 +901,8 @@
 
 
     
-        <meta name="generator" content="Hexo 3.8.0"><div class="card widget" id="toc">
+        
+<div class="card widget" id="toc">
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
@@ -894,7 +938,7 @@
                 
                 </a>
                 <p class="is-size-7">
-                © 2019 gylidian 
+                &copy; 2019 gylidian&nbsp;
                 Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
                 
                 </p>
@@ -940,21 +984,27 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="/js/animation.js"></script>
+    
+    
+    <script src="/js/animation.js"></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
     <script src="/js/gallery.js" defer></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0"><div id="outdated">
+    
+
+<div id="outdated">
     <h6>Your browser is out-of-date!</h6>
     <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" rel="external nofollow noopener noreferrer" target="_blank">Update
             my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">×</a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
 <script>
@@ -969,7 +1019,8 @@
 
 
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     MathJax.Hub.Config({
@@ -993,30 +1044,37 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
     
-    <meta name="generator" content="Hexo 3.8.0"><a id="back-to-top" title="回到顶端" href="javascript:;">
+    
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
 
 
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
+
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0">
     
-    <meta name="generator" content="Hexo 3.8.0"><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
     <script src="/js/clipboard.js" defer></script>
     
 
     
-    <meta name="generator" content="Hexo 3.8.0">
+    
     
 
 
+<script src="/js/firework.js" defer></script>
 <script src="/js/main.js" defer></script>
 
     
@@ -1050,5 +1108,5 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
-
-</body></html>
+</body>
+</html>

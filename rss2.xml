@@ -8,7 +8,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>前端,前端技术,javascript,css,html,生活,文章,bilibili,游戏,说说,分享,学习,情感,知识,博客,blog,技术,github,gylidian,啊哈呵嗨,锂碘,个人博客</description>
-    <pubDate>Fri, 15 Feb 2019 13:13:25 GMT</pubDate>
+    <pubDate>Fri, 15 Feb 2019 13:21:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,9 +18,9 @@
       <pubDate>Fri, 15 Feb 2019 11:14:03 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！&lt;/p&gt;
+        &lt;p&gt;✨《从零开始的 Hexo 博客搭建教程(how-to-build-hexo-blog)》终于到了第七辑啦！&lt;/p&gt;
 &lt;p&gt;本文用于 收集本人在使用 Hexo 的过程中出现的 &lt;strong&gt;各种坑及解决方法&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;如果你有更好的解决方法或遇过的坑，欢迎在评论区分享喔 ο(=•ω ＜=)ρ⌒☆&lt;/p&gt;
       
       </description>
       
@@ -34,9 +34,9 @@
       <pubDate>Fri, 15 Feb 2019 11:07:01 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;👓 推荐常用的 Hexo 插件&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;/blockquote&gt;
       
       </description>
       
@@ -50,7 +50,7 @@
       <pubDate>Thu, 14 Feb 2019 14:07:18 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;CSS 是世界上最难的语言! #（手动滑稽）&lt;br&gt;​ ———— 啊哈呵嗨&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;#%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD&quot;&gt;水平居中&lt;/a&gt;&lt;/p&gt;
@@ -153,7 +153,7 @@
 &lt;td&gt;&lt;code&gt;奇技淫巧&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;/table&gt;
       
       </description>
       
@@ -167,7 +167,7 @@
       <pubDate>Thu, 14 Feb 2019 13:28:24 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;2018-年-年度总结-代码行数&quot;&gt;&lt;a href=&quot;#2018-年-年度总结-代码行数&quot; class=&quot;headerlink&quot; title=&quot;2018 年 年度总结 代码行数&quot;&gt;&lt;/a&gt;2018 年 年度总结 代码行数&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;统计工具&lt;/strong&gt;&lt;/p&gt;
+        &lt;h1 id=&quot;2018-年-年度总结-代码行数&quot;&gt;&lt;a href=&quot;#2018-年-年度总结-代码行数&quot; class=&quot;headerlink&quot; title=&quot;2018 年 年度总结 代码行数&quot;&gt;&lt;/a&gt;2018 年 年度总结 代码行数&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;统计工具&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm install -g sloc&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;统计内容&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Create stats of the source code:&lt;/p&gt;
@@ -181,7 +181,7 @@
 &lt;li&gt;empty lines within block comments&lt;/li&gt;
 &lt;li&gt;empty lines&lt;/li&gt;
 &lt;li&gt;lines with TODO’s&lt;/li&gt;
-&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;/ul&gt;
       
       </description>
       
@@ -199,8 +199,8 @@
         
           
           
-            &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;##&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;
+            &lt;p&gt;##&lt;/p&gt;
+
           
         
       
@@ -220,12 +220,12 @@
         
           
           
-            &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;1.打开“微信”。&lt;/p&gt;
+            &lt;p&gt;1.打开“微信”。&lt;/p&gt;
 &lt;p&gt;2.打开“我”，然后点击“钱包”。&lt;/p&gt;
 &lt;p&gt;3.点击“收付码”。&lt;/p&gt;
 &lt;p&gt;4.点击“赞赏码”。&lt;/p&gt;
 &lt;p&gt;5.点击“开通赞赏码”。&lt;/p&gt;
-&lt;p&gt;6.添加“赞赏引导语”，还可
+&lt;p&gt;6.添加“赞赏引导语”，还可以根据需要修改“赞赏金额”，然后点击“生成赞赏码”
           
         
       
@@ -241,12 +241,12 @@
       <pubDate>Thu, 14 Feb 2019 04:16:07 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;🖼写文章从选用一个好图床开始！&lt;/p&gt;
 &lt;p&gt;一步一步按照教程挑选适合自己的图床服务吧！结合一些图床上传工具使得写文章事半功倍！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;（虽然这一辑教程和Hexo没太大关系啦）&lt;/p&gt;
-&lt;p&gt;🎀多图预警！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;🎀多图预警！&lt;/p&gt;
       
       </description>
       
@@ -260,12 +260,12 @@
       <pubDate>Thu, 14 Feb 2019 04:15:27 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;🍰 本篇着重介绍了 Hexo 博客做 SEO 的一些小技巧，在内容优质程度不变的情况下如何针对搜索引擎展示或主动提交更多内容。&lt;/p&gt;
+        &lt;p&gt;🍰 本篇着重介绍了 Hexo 博客做 SEO 的一些小技巧，在内容优质程度不变的情况下如何针对搜索引擎展示或主动提交更多内容。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;为什么要做SEO？&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;SEO”Search Engine Optimization”汉译为搜索引擎优化 ,搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式，搜索引擎优化是提高网站在搜索引擎结果中排名的战略。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;SEO非常耗时间，但“结果”是增加流量和更高的回报，而这需要您长久的悉心耕耘。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;SEO非常耗时间，但“结果”是增加流量和更高的回报，而这需要您长久的悉心耕耘。&lt;/p&gt;
       
       </description>
       
@@ -279,9 +279,9 @@
       <pubDate>Thu, 14 Feb 2019 04:11:55 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;🧁 为你的 Hexo 博客添加美观的主题，包括主题配置、分享、打赏、评论插件等。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;/blockquote&gt;
       
       </description>
       
@@ -295,7 +295,7 @@
       <pubDate>Thu, 14 Feb 2019 03:43:09 GMT</pubDate>
       <description>
       
-        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;🎂 开始你的 Hexo 之旅&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;Why-Hexo&quot;&gt;&lt;a href=&quot;#Why-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Why Hexo?&quot;&gt;&lt;/a&gt;Why Hexo?&lt;/h2&gt;&lt;p&gt;基础搭配：&lt;code&gt;Git + Github Pages + Hexo&lt;/code&gt;&lt;/p&gt;
@@ -306,7 +306,7 @@
 &lt;li&gt;简洁 - MarkDown&lt;/li&gt;
 &lt;li&gt;轻量 - 全部静态文件&lt;/li&gt;
 &lt;li&gt;支持导入 WordPress 等博客&lt;/li&gt;
-&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;/ul&gt;
       
       </description>
       
