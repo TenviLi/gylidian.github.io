@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){"function"==typeof $.fn.lightGallery&&$(".article").lightGallery({selector:".gallery-item"}),"function"==typeof $.fn.justifiedGallery&&$(".justified-gallery").justifiedGallery()});
