@@ -8,8 +8,36 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我热爱前端，从未停止过努力，喜欢折腾项目、分享生活中有趣的事物、热爱朋友和世界、对一切新知识充满好奇心。坚持一定很酷！</description>
-    <pubDate>Wed, 20 Feb 2019 06:56:56 GMT</pubDate>
+    <pubDate>Sat, 23 Feb 2019 15:20:44 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>给自己扫盲——文件完整性校验</title>
+      <link>https://www.nuist.today/aUE-KU/</link>
+      <guid>https://www.nuist.today/aUE-KU/</guid>
+      <pubDate>Sat, 23 Feb 2019 14:58:44 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;&lt;img src=&quot;https://unpkg.com/vvwip/WIP.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;一直都在接触 md5 之类的东东，今天想起来深入了解一下，来弥补对这些加密算法常识上的缺失。&lt;/p&gt;&lt;p&gt;嘛，文章还在写。&lt;/p&gt;&lt;h2 id=&quot;什么是文件校验？&quot;&gt;&lt;a href=&quot;#什么是文件校验？&quot; class=&quot;headerlink&quot; title=&quot;什么是文件校验？&quot;&gt;&lt;/a&gt;什么是文件校验？&lt;/h2&gt;&lt;p&gt;文件校验 就是 使用算法验证计算机文件完整性的过程。&lt;/p&gt;&lt;p&gt;你可以通过逐位(bit)比较两个文件来完成，但这需要同一文件的两个副本，并且可能会错过两个文件中可能出现的系统性损坏。&lt;/p&gt;&lt;p&gt;更流行的方法是还存储文件的校验和（散列），也称为消息摘要，以供稍后比较。&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/aUE-KU/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>RESTful API 设计参考文献收集</title>
+      <link>https://www.nuist.today/mTBBU3/</link>
+      <guid>https://www.nuist.today/mTBBU3/</guid>
+      <pubDate>Wed, 20 Feb 2019 08:11:05 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;RESTful API 设计参考文献列表，可帮助你更加彻底的了解REST风格的接口设计。&lt;/p&gt;&lt;/blockquote&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/mTBBU3/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>星之卡比全曲目收录歌单列表</title>
