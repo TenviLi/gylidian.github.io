@@ -8,8 +8,22 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我热爱前端，从未停止过努力，喜欢折腾项目、分享生活中有趣的事物、热爱朋友和世界、对一切新知识充满好奇心。坚持一定很酷！</description>
-    <pubDate>Sat, 23 Feb 2019 15:20:44 GMT</pubDate>
+    <pubDate>Mon, 25 Feb 2019 02:22:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>又来盘点最大公约数的算法👩</title>
+      <link>https://www.nuist.today/R52z1i/</link>
+      <guid>https://www.nuist.today/R52z1i/</guid>
+      <pubDate>Mon, 25 Feb 2019 00:44:58 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;你媽的，为什么又双叒叕开学了！假期，你不要停下来啊！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://gylidian-blog.test.upcdn.net/20190225100344.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;嘛，第一节课是 算法设计与分析课，郑某人带的学生由原来的俺们整个软工三个班换成原来俺们一个班和计嵌软嵌了。首先呢，郑某人自我介绍了一下：”我是普通老师郑玉！”，嗯，普通市民刘青云？还是 普通家庭马化腾？&lt;/p&gt;&lt;p&gt;开学第一节课就讲最大公约数(greatest common divisor,简写为&lt;em&gt;gcd&lt;/em&gt;)，老师要是不说我差点儿就忘了，俺就趁下课时间温习一下我遇到过的几个最大公约数的算法。&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/R52z1i/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>给自己扫盲——文件完整性校验</title>
@@ -18,7 +32,7 @@
       <pubDate>Sat, 23 Feb 2019 14:58:44 GMT</pubDate>
       <description>
       
-        &lt;p&gt;&lt;img src=&quot;https://unpkg.com/vvwip/WIP.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;一直都在接触 md5 之类的东东，今天想起来深入了解一下，来弥补对这些加密算法常识上的缺失。&lt;/p&gt;&lt;p&gt;嘛，文章还在写。&lt;/p&gt;&lt;h2 id=&quot;什么是文件校验？&quot;&gt;&lt;a href=&quot;#什么是文件校验？&quot; class=&quot;headerlink&quot; title=&quot;什么是文件校验？&quot;&gt;&lt;/a&gt;什么是文件校验？&lt;/h2&gt;&lt;p&gt;文件校验 就是 使用算法验证计算机文件完整性的过程。&lt;/p&gt;&lt;p&gt;你可以通过逐位(bit)比较两个文件来完成，但这需要同一文件的两个副本，并且可能会错过两个文件中可能出现的系统性损坏。&lt;/p&gt;&lt;p&gt;更流行的方法是还存储文件的校验和（散列），也称为消息摘要，以供稍后比较。&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&quot;https://unpkg.com/vvwip/WIP.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;一直都在接触 md5 之类的东东，今天想起来深入了解一下，来弥补对这些加密算法常识上的缺失。&lt;/p&gt;&lt;p&gt;嘛，文章还在写。本文旨在给我自己扫盲🙆‍~这涉及密码学的很多相关概念。&lt;/p&gt;&lt;h2 id=&quot;什么是文件校验？&quot;&gt;&lt;a href=&quot;#什么是文件校验？&quot; class=&quot;headerlink&quot; title=&quot;什么是文件校验？&quot;&gt;&lt;/a&gt;什么是文件校验？&lt;/h2&gt;&lt;p&gt;文件校验 就是 使用算法验证计算机文件完整性的过程。&lt;/p&gt;&lt;p&gt;你可以通过逐位(bit)比较两个文件来完成，但这需要同一文件的两个副本，并且可能会错过两个文件中可能出现的系统性损坏。&lt;/p&gt;&lt;p&gt;更流行的方法是还存储文件的校验和（散列），也称为消息摘要，以供稍后比较。&lt;/p&gt;
       
       </description>
       
