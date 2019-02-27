@@ -8,8 +8,22 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我热爱前端，从未停止过努力，喜欢折腾项目、分享生活中有趣的事物、热爱朋友和世界、对一切新知识充满好奇心。坚持一定很酷！</description>
-    <pubDate>Mon, 25 Feb 2019 02:42:40 GMT</pubDate>
+    <pubDate>Wed, 27 Feb 2019 05:13:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>【译】一张图搞定CSS选择器知识</title>
+      <link>https://www.nuist.today/ejIjWE/</link>
+      <guid>https://www.nuist.today/ejIjWE/</guid>
+      <pubDate>Wed, 27 Feb 2019 04:53:34 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;&lt;p&gt;原文：&lt;a href=&quot;https://medium.com/design-code-repository/css-selectors-cheatsheet-details-9593bc204e3f&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;CSS selectors cheatsheet &amp;amp; details&lt;/a&gt;&lt;/p&gt;&lt;p&gt;作者：&lt;a href=&quot;https://medium.com/@nana8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;nana Jeon&lt;/a&gt; 译者：&lt;a href=&quot;https://github.com/gylidian&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;gylidian&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;📜 CSS selectors cheatsheet&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;这些天，我一直在折腾 &lt;strong&gt;CSS选择器&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;拥有杂七杂八符号的CSS选择器太多了，比如 &gt; . , * + ~ [] 等等，因此我经常被如何使用这些选择器搞得头大。&lt;/p&gt;&lt;p&gt;终于，我把它们在我脑海中理顺了，并按照我的理解来构建知识体系。&lt;/p&gt;&lt;p&gt;*&lt;em&gt;事实上，为了节省纸张、保护地球，我原本是想把它们全部只放在一张A4大小的页面上，但因为有太多的选择器我想添加，所以我不得不做成多页。除了封面外，其余四页都是A4的。&lt;/em&gt;&lt;/p&gt;&lt;p&gt;把这张纸打印出来，贴在墙上，别刻意去记，只是用来没事儿偷瞄几眼而已。我希望这张 cheatsheet 能帮助你快速找到合适的CSS选择器并节省时间。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://gylidian-blog.test.upcdn.net/20190227120658.png&quot; alt=&quot;CSS selectors cheatsheet&quot;&gt;&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/ejIjWE/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>又来盘点最大公约数的算法👩</title>
