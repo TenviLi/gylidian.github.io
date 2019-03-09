@@ -8,8 +8,56 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我热爱前端，从未停止过努力，喜欢折腾项目、分享生活中有趣的事物、热爱朋友和世界、对一切新知识充满好奇心。坚持一定很酷！</description>
-    <pubDate>Wed, 27 Feb 2019 06:16:38 GMT</pubDate>
+    <pubDate>Fri, 08 Mar 2019 07:42:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>让JS实现Python的range函数</title>
+      <link>https://www.nuist.today/tuDhTb/</link>
+      <guid>https://www.nuist.today/tuDhTb/</guid>
+      <pubDate>Fri, 08 Mar 2019 02:23:10 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css&quot;&gt;&lt;blockquote&gt;&lt;p&gt;🥓
+          
+        
+      
+      </description>
+      
+      <comments>https://www.nuist.today/tuDhTb/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>直播用HDMI采集卡选用指南及使用教程</title>
+      <link>https://www.nuist.today/zfuGcl/</link>
+      <guid>https://www.nuist.today/zfuGcl/</guid>
+      <pubDate>Sun, 03 Mar 2019 06:05:30 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;经过了 1 周的反复比对和折腾，我的采集卡终于到了。（闲鱼 650 ￥）血赚啊有木有？&lt;/p&gt;&lt;p&gt;今年上半年，我将会以采集卡的艺术形象，正式开写，弘扬直播文化，文体两开花。&lt;/p&gt;&lt;p&gt;我将会在这篇文章中普及 直播的基本知识 和 采集卡选用&amp;amp;使用技巧。&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/zfuGcl/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>《Tetris:99》俄罗斯方块吃鸡从入门到进阶</title>
+      <link>https://www.nuist.today/QKS04c/</link>
+      <guid>https://www.nuist.today/QKS04c/</guid>
+      <pubDate>Sat, 02 Mar 2019 08:46:24 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;北京时间2019年2月14日上午9时，一场35分钟的任天堂直面会开始了。这次今年第一场直面会内容巨多，尤其是 《火焰纹章：风花雪月》、《任天堂明星大乱斗 特别版》3.0、《哆啦A梦：大雄的牧场物语》、《耀西的手工世界》《超级玛利欧制造 2》《塞尔达传说 织梦岛》等游戏，遭到了大家的热议，实在是太令人兴奋了！&lt;/p&gt;&lt;p&gt;正当所有人沉浸在情人节的快感之中时，只有你对着屏幕上的 Nintendo Direct 高潮迭起。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://gylidian-blog.test.upcdn.net/20190305114540.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;咳咳，言归正传！（单身狗流泪）&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/QKS04c/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>【译】一张图搞定CSS选择器知识</title>
@@ -253,20 +301,6 @@
       </description>
       
       <comments>https://www.nuist.today/0IxRfH/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>从零开始的Hexo博客搭建教程（一）：开始</title>
-      <link>https://www.nuist.today/h94Rf-/</link>
-      <guid>https://www.nuist.today/h94Rf-/</guid>
-      <pubDate>Thu, 14 Feb 2019 03:43:09 GMT</pubDate>
-      <description>
-      
-        &lt;blockquote&gt;&lt;p&gt;🎂 开始你的 Hexo 之旅&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Why-Hexo&quot;&gt;&lt;a href=&quot;#Why-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Why Hexo?&quot;&gt;&lt;/a&gt;Why Hexo?&lt;/h2&gt;&lt;p&gt;基础搭配：&lt;code&gt;Git + Github Pages + Hexo&lt;/code&gt;&lt;/p&gt;&lt;p&gt;优点&lt;/p&gt;&lt;ul&gt;&lt;li&gt;免费 - GitHub&lt;/li&gt;&lt;li&gt;快速 - Node 运行环境、前端个人站点首选&lt;/li&gt;&lt;li&gt;简洁 - MarkDown&lt;/li&gt;&lt;li&gt;轻量 - 全部静态文件&lt;/li&gt;&lt;li&gt;支持导入 WordPress 等博客&lt;/li&gt;&lt;/ul&gt;
-      
-      </description>
-      
-      <comments>https://www.nuist.today/h94Rf-/#disqus_thread</comments>
     </item>
     
   </channel>
