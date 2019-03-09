@@ -8,28 +8,8 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我热爱前端，从未停止过努力，喜欢折腾项目、分享生活中有趣的事物、热爱朋友和世界、对一切新知识充满好奇心。坚持一定很酷！</description>
-    <pubDate>Fri, 08 Mar 2019 07:42:05 GMT</pubDate>
+    <pubDate>Fri, 08 Mar 2019 07:36:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>让JS实现Python的range函数</title>
-      <link>https://www.nuist.today/tuDhTb/</link>
-      <guid>https://www.nuist.today/tuDhTb/</guid>
-      <pubDate>Fri, 08 Mar 2019 02:23:10 GMT</pubDate>
-      <description>
-      
-        
-        
-          
-          
-            &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css&quot;&gt;&lt;blockquote&gt;&lt;p&gt;🥓
-          
-        
-      
-      </description>
-      
-      <comments>https://www.nuist.today/tuDhTb/#disqus_thread</comments>
-    </item>
     
     <item>
       <title>直播用HDMI采集卡选用指南及使用教程</title>
@@ -301,6 +281,20 @@
       </description>
       
       <comments>https://www.nuist.today/0IxRfH/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（一）：开始</title>
+      <link>https://www.nuist.today/h94Rf-/</link>
+      <guid>https://www.nuist.today/h94Rf-/</guid>
+      <pubDate>Thu, 14 Feb 2019 03:43:09 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;&lt;p&gt;🎂 开始你的 Hexo 之旅&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Why-Hexo&quot;&gt;&lt;a href=&quot;#Why-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Why Hexo?&quot;&gt;&lt;/a&gt;Why Hexo?&lt;/h2&gt;&lt;p&gt;基础搭配：&lt;code&gt;Git + Github Pages + Hexo&lt;/code&gt;&lt;/p&gt;&lt;p&gt;优点&lt;/p&gt;&lt;ul&gt;&lt;li&gt;免费 - GitHub&lt;/li&gt;&lt;li&gt;快速 - Node 运行环境、前端个人站点首选&lt;/li&gt;&lt;li&gt;简洁 - MarkDown&lt;/li&gt;&lt;li&gt;轻量 - 全部静态文件&lt;/li&gt;&lt;li&gt;支持导入 WordPress 等博客&lt;/li&gt;&lt;/ul&gt;
+      
+      </description>
+      
+      <comments>https://www.nuist.today/h94Rf-/#disqus_thread</comments>
     </item>
     
   </channel>
