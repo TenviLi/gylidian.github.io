@@ -116,34 +116,6 @@
     </item>
     
     <item>
-      <title>星之卡比全曲目收录歌单列表</title>
-      <link>https://gylidian.js.org/v8o7kd/</link>
-      <guid>https://gylidian.js.org/v8o7kd/</guid>
-      <pubDate>Tue, 19 Feb 2019 17:55:24 GMT</pubDate>
-      <description>
-      
-        &lt;p align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://gylidian-blog.test.upcdn.net/20190220140247.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;strong&gt;星之卡比/Kirby BGM | 2018.11.27 更新&lt;/strong&gt;&lt;br&gt;截至目前，歌单收藏量2199次，播放量100924次&lt;br&gt;分享次数25次，评论108个 &lt;a style=&quot;background-color:#df2d2d;color:#fff;text-decoration:none;padding:4px 6px;font-size:12px;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://music.163.com/#/playlist?id=121488048&quot; title=&quot;网易云音乐歌单地址&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;width:18px;vertical-align:bottom;height:18px;background-image:url(http://gylidian-blog.test.upcdn.net/20190220144810.svg)&quot;&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;网易云音乐歌单地址&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-      
-      </description>
-      
-      <comments>https://gylidian.js.org/v8o7kd/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Splatoon全曲目收录歌单列表</title>
-      <link>https://gylidian.js.org/ryAQ2R/</link>
-      <guid>https://gylidian.js.org/ryAQ2R/</guid>
-      <pubDate>Tue, 19 Feb 2019 17:18:11 GMT</pubDate>
-      <description>
-      
-        &lt;p align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://gylidian-blog.test.upcdn.net/20190220132410.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;strong&gt;Splatoon2/喷射战士2 OST | 2019.2.20更新&lt;/strong&gt;&lt;br&gt;截至目前，歌单收藏量2949次，播放量109858次&lt;br&gt;分享次数40次，评论50个 &lt;a style=&quot;background-color:#df2d2d;color:#fff;text-decoration:none;padding:4px 6px;font-size:12px;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://music.163.com/#/playlist?id=307393236&quot; title=&quot;网易云音乐歌单地址&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;width:18px;vertical-align:bottom;height:18px;background-image:url(http://gylidian-blog.test.upcdn.net/20190220144810.svg)&quot;&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;网易云音乐歌单地址&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-      
-      </description>
-      
-      <comments>https://gylidian.js.org/ryAQ2R/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>CSS实现下划线动画的各种姿势</title>
       <link>https://gylidian.js.org/y0NIjj/</link>
       <guid>https://gylidian.js.org/y0NIjj/</guid>
@@ -301,6 +273,20 @@
       </description>
       
       <comments>https://gylidian.js.org/0IxRfH/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>从零开始的Hexo博客搭建教程（一）：开始</title>
+      <link>https://gylidian.js.org/h94Rf-/</link>
+      <guid>https://gylidian.js.org/h94Rf-/</guid>
+      <pubDate>Thu, 14 Feb 2019 03:43:09 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;&lt;p&gt;🎂 开始你的 Hexo 之旅&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Why-Hexo&quot;&gt;&lt;a href=&quot;#Why-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Why Hexo?&quot;&gt;&lt;/a&gt;Why Hexo?&lt;/h2&gt;&lt;p&gt;基础搭配：&lt;code&gt;Git + Github Pages + Hexo&lt;/code&gt;&lt;/p&gt;&lt;p&gt;优点&lt;/p&gt;&lt;ul&gt;&lt;li&gt;免费 - GitHub&lt;/li&gt;&lt;li&gt;快速 - Node 运行环境、前端个人站点首选&lt;/li&gt;&lt;li&gt;简洁 - MarkDown&lt;/li&gt;&lt;li&gt;轻量 - 全部静态文件&lt;/li&gt;&lt;li&gt;支持导入 WordPress 等博客&lt;/li&gt;&lt;/ul&gt;
+      
+      </description>
+      
+      <comments>https://gylidian.js.org/h94Rf-/#disqus_thread</comments>
     </item>
     
   </channel>

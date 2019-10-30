@@ -13,6 +13,6 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://www.nuist.today/search.xml
-Sitemap: https://www.nuist.today/sitemap.xml
-Sitemap: https://www.nuist.today/baidusitemap.xml
+Sitemap: https://gylidian.js.org/search.xml
+Sitemap: https://gylidian.js.org/sitemap.xml
+Sitemap: https://gylidian.js.org/baidusitemap.xml
